@@ -1,3 +1,4 @@
+/*惯性导航至设定的导航点，当扫到二维码时立即取消当前导航点，指向下一个导航点*/
 #include <ros/ros.h>  
 #include <move_base_msgs/MoveBaseAction.h>  
 #include <actionlib/client/simple_action_client.h> 
